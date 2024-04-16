@@ -55,18 +55,3 @@ void loop() {
       delay(500); // Espera 500ms  
   }
 }
-
-
-
-
-/*
-  for (ang = 0; ang <= 180; ang += 1) { // Vai de 0º até 180º
-    // in steps of 1 degree
-    meuservo.write(ang);              // Comando que envia o sinal para o servo rotacionar
-    delay(15);                       // Espera 15ms 
-  }
-  for (ang = 180; ang >= 0; ang -= 3) { // Vai de 180º até 0º (+ rápido)
-    meuservo.write(ang);              // Comando que envia o sinal para o servo rotacionar
-    delay(15);                       // Espera 15ms 
-  }
-*/
