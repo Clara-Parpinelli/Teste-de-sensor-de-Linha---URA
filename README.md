@@ -5,6 +5,8 @@
 # Tabela de Conteúdos
 - [Como usar](#gear-como-usar)
 - [Teste realizado](#construction_worker-teste-realizado)
+- [Ideias para aplicação](#bulb-ideias-para-aplicação)
+<br/>
 
 # :gear: Como usar
 O sensor de refletância é um dispositivo usado para detectar a presença ou ausência de objetos com base na quantidade de luz refletida. Ele funciona emitindo luz (geralmente infravermelha) em direção a um objeto e medindo a quantidade de luz refletida de volta para o sensor. Aqui estão alguns pontos-chave sobre os sensores de refletância:
@@ -50,12 +52,11 @@ void loop() {
   }
 }
 ```
-</br>
 Para mais informações de como o código funciona, <a href="/Teste_01.ino">Acesse o código aqui</a>
+<br/>
 
-
-
-
+# :bulb: Ideias para aplicação
+aaa
 
 
 
