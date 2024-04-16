@@ -1,5 +1,5 @@
 <h1 align="center">SENSOR DE REFLETÂNCIA</h1>
-<h3 align="center">Um breve resumo sobre o funcionamento, testes aplicados no laboratório e sugestões de uso.</h4>
+<h3 align="center">Um breve resumo sobre o funcionamento, testes aplicados no laboratório e sugestões de uso.</h3>
 <br/>
 
 # Tabela de Conteúdos
@@ -56,8 +56,9 @@ Para mais informações de como o código funciona, <a href="/Teste_01.ino">Aces
 <br/>
 
 # :bulb: Ideias para aplicação
-aaa
-
+<h4>Ideia 01: Robô Seguidor de Linha</h4>
+<br/>
+<h4>Ideia 02: Detecção de Obstáculos</h4>
 
 
 
