@@ -23,6 +23,8 @@ No Arduino, conectamos um dos pinos do sensor ao GND (terra), outro à alimenta�
 
 # :construction_worker: Teste realizado
 Durante o teste laboratorial, foi implementado um código simples que permitia ao sensor de linha identificar se estava sobre uma região preta ou branca, retornando a cor detectada.
+</br>
+Para mais informações de como o código funciona, <a href="/Teste_01.ino">Acesse o código aqui</a>
 
 
 
