@@ -4,7 +4,6 @@
 
 # Tabela de Conteúdos
 - [Como usar](#gear-como-usar)
-- [Regras da OBRV10](#pushpin-regras-da-obrv10)
 - [Teste realizado](#construction_worker-teste-realizado)
 - [Ideias para aplicação](#bulb-ideias-para-aplicação)
 <br/>
@@ -33,8 +32,6 @@ No Arduino, conectamos um dos pinos do sensor ao GND (terra), outro à alimenta�
 </p>
 
 <br/>
-
-# :pushpin: Regras da OBRV10
 
 # :construction_worker: Teste realizado
 Durante o teste laboratorial, foi implementado um código simples que permitia ao sensor de linha identificar se estava sobre uma região preta ou branca, retornando a cor detectada.
