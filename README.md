@@ -31,30 +31,32 @@ Durante o teste laboratorial, foi implementado um código simples que permitia a
 // O código do arduino é lido de cima para baixo, então iremos seguir esse padrão
 
 //Mapeamento do pino conectado ao sensor de linha. Nesse exemplo foi utilizado a porta 8 para conectar ao sensor. 
-#define pinSensor1 8 
+#define pinSensor1 8;
+//Mapeamento do Led conectado a protoboard. Nesse exemplo foi utilizado a porta 12 para conectar ao sensor. 
+#define Led 12;
 
+void setup(){
 //O Sensor Infravermelho atua como uma entrada, pois faz a leitura da região à qual foi exposto e retorna essa informação para o código.
-void setup() {
-  pinMode(pinSensor1, INPUT);
-  Serial.begin(9600)
-}
+  pinMode(pinoSensor, INPUT); 
+  pinMode(Led, OUTPUT);
+//Definimos que o Led irá começar desligado
+  digitalWrite(Led, LOW); 
+}  
 
 void loop() {
-  //A variável booleana estadoSensor1 lê a informação retornada pelo sensor sendo 1 para "Preto ou nada" e 0 para "Branco ou diferente de preto"
-  bool estadoSensor1 = digitalRead(pinSensor1);
-  
-  if (estadoSensor1){
-    //Se o estadoSensor1 receber o valor 1 da leitura do sensor é mostrado a mensagem "Preto (ou nada)"
-    Serial.println("Preto (ou nada)")
+  //Se a leitura feita pelo sensor infravermelho for LOW, indica que ele detectou um objeto em sua frente. Nesse caso, o LED será ativado ou ligado.
+  if (digitalRead(pinoSensor) == LOW){ 
+        digitalWrite(Led, HIGH); 
   }else{
-    //Se o estadoSensor1 receber o valor 0 da leitura do sensor é mostrado a mensagem "Branco (diferente de preto)"
-    Serial.println("Branco (diferente de preto)")
-  }
+  //Senão não a nada na frente do sensor, logo o Led continuará desligado
+        digitalWrite(Led, LOW);
+  }    
 }
 ```
 Para mais informações de como o código funciona, <a href="/Teste_01.ino">Acesse o código aqui</a>
+<br/><br/>
+O teste foi realizsdo em cerca de 30 sensores testados no laboratório, somente dois apresentaram problemas.
 <br/>
-
 # :bulb: Ideias para aplicação
 <h4>Ideia 01: Robô Seguidor de Linha</h4>
 <br/>
