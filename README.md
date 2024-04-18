@@ -65,14 +65,17 @@ void loop() {
 ```
 Para mais informações de como o código funciona, <a href="/Teste_01.ino">Acesse o código aqui</a>
 <br/><br/>
-O teste foi realizsdo em cerca de trinta sensores testados no laboratório, somente dois apresentaram problemas.
+O teste foi realizado em cerca de trinta sensores no laboratório, somente dois apresentaram problemas.
 <br/>
 # :bulb: Ideias para aplicação
+Esta seção é deidicada a ideias de aplicação dos sensores de refletância para a Olímpiada Brasileira de Robôtica (OBR). Sua modalidade denominada "Robótica de Resgate", simula uma operação de resgate de vítimas em situações de desastre, empregando robôs totalmente autônomos sem intervenção humana.
+
 <h4>Ideia 01: Robô Seguidor de Linha</h4>
+Durante a competição, o robô deve acompanhar uma linha escura demarcada na área de atuação. Para cumprir essa exigência, pode-se utilizar dois sensores de refletância na frente do robô. Eles detectam a presença ou ausência de uma linha preta, permitindo que o robô ajuste sua trajetória ao longo do desafio, mantendo a linha preta entre os sensores. O manual da prova também especifica possíveis variações no padrão da linha ao longo do percurso. Para mais informações sobre os padrões de linha acesse, <a href="https://obr.robocup.org.br/documentos-e-manuais/">Sugestões de Ladrilhos</a>.
+
 <br/>
 <h4>Ideia 02: Detecção de Obstáculos</h4>
-
-
+Na área de prova, além dos diferentes padrões de desenho da linha, o robô pode encontrar obstáculos que simulam destroços de um desastre. Segundo o manual da competição, o robô pode receber 20 pontos adicionais se conseguir desviar desses obstáculos. Os sensores infravermelhos têm a capacidade de detectar objetos que se aproximam do robô. Durante a prova, ajustando o alcance da emissão de luz infravermelha, esses sensores podem enviar sinais ao código do robô, exigindo que ele pare e desvie do objeto detectado. Isso pode ser crucial para o desempenho do robô na competição. Para mais informações sobre a área da prova e sobre os obstáculos acesse, <a href="https://obr.robocup.org.br/documentos-e-manuais/">Manual de Regras e Instruções – Resgate</a>.
 
 
 
